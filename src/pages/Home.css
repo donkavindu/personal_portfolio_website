@@ -1,0 +1,75 @@
+.home-page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    overflow: hidden;
+}
+.animate-plane{
+    position: absolute;
+    width: 50px;
+    height: 350px;
+    background-image: url(/public/assets/plane.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    animation: planeAnimate 10s linear infinite;
+}
+.home-page-image-area{
+    width: 300px;
+    height: 300px;
+    background-image: url(/public/assets/profile.jpg);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-page-text-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home-page-text-area h1{
+    font-size: 3rem;
+}
+.blue-text{
+    color: #25a9ef;
+}
+.proffesion{
+    margin-top: -1rem;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+}
+.social-media{
+    margin-top: 1rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes planeAnimate{
+    0%{
+        right: 5px;
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        right: 5px;
+        bottom: 100%;
+        opacity: 0;
+    }
+}
