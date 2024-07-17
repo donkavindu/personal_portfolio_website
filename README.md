@@ -2,4 +2,5 @@
 
 My portfolio website built with ReactJS
 
-![Artboard 1](https://github.com/user-attachments/assets/1bc3917a-29c7-4f51-93a1-4cf83185b127)
+![Artboard 1](https://github.com/user-attachments/assets/3d339af8-f7aa-4d3d-8a7b-9a9e4a2e85d2)
+
